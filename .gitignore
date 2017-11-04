@@ -1,0 +1,5 @@
+.AppleDouble
+node_modules
+.idea/
+*.lock
+*.log
