@@ -1,15 +1,28 @@
+const fs = require('fs')
 const exec = require('child_process').exec
 
-module.exports = class Remote {
+class Remote {
   
   constructor() {
+
+    this.init = this.init.bind(this)
+    this.init()
   }
   
   init() {
+    const buttonData = fs.readFileSync('remote.json')
+    const buttonJson = JSON.parse(buttonData)
+
+    this.buttons = buttonJson
   }
 
-  sendCmd(remote, key, next) {
-    const cmd = `irsend SEND_ONCE ${remote} ${key}`
+  sendCmd(btn, next) {
+    const button = this.buttons[btn]
+    if (!button) {
+      console.error(`Button ${btn} does not exist`)
+      return
+    }
+    const cmd = `irsend SEND_ONCE ${button.remote} ${button.key}`
 
     console.info(`Sending command: ${cmd}`)
     exec(cmd, err => {
@@ -20,3 +33,6 @@ module.exports = class Remote {
     })
   }
 }
+
+const remote = new Remote()
+export default remote

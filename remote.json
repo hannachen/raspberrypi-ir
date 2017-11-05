@@ -1,0 +1,102 @@
+{
+  "power": {
+    "name": "[TV] Power",
+    "remote": "N2QAYB000827",
+    "key": "KEY_POWER"
+  },
+  "input": {
+    "name": "[TV] Input Source",
+    "remote": "N2QAYB000827",
+    "key": "KEY_INPUT"
+  },
+  "mute": {
+    "name": "[TV] Mute",
+    "remote": "N2QAYB000827",
+    "key": "KEY_MUTE"
+  },
+  "volup": {
+    "name": "[TV] Volume Up",
+    "remote": "N2QAYB000827",
+    "key": "KEY_VOLUME_UP"
+  },
+  "voldown": {
+    "name": "[TV] Volume Down",
+    "remote": "N2QAYB000827",
+    "key": "KEY_VOLUME_DOWN"
+  },
+  "chanup": {
+    "name": "[TV] Channel Up",
+    "remote": "N2QAYB000827",
+    "key": "KEY_CHANNEL_UP"
+  },
+  "chandown": {
+    "name": "[TV] Channel Down",
+    "remote": "N2QAYB000827",
+    "key": "KEY_CHANNEL_DOWN"
+  },
+  "num1": {
+    "name": "[TV] Numpad 1",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_1"
+  },
+  "num2": {
+    "name": "[TV] Numpad 2",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_2"
+  },
+  "num3": {
+    "name": "[TV] Numpad 3",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_3"
+  },
+  "num4": {
+    "name": "[TV] Numpad 4",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_4"
+  },
+  "num5": {
+    "name": "[TV] Numpad 5",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_5"
+  },
+  "num6": {
+    "name": "[TV] Numpad 6",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_6"
+  },
+  "num7": {
+    "name": "[TV] Numpad 7",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_7"
+  },
+  "num8": {
+    "name": "[TV] Numpad 8",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_8"
+  },
+  "num9": {
+    "name": "[TV] Numpad 9",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_9"
+  },
+  "num0": {
+    "name": "[TV] Numpad 0",
+    "remote": "N2QAYB000827",
+    "key": "KEY_NUM_0"
+  },
+  "srcpc": {
+    "name": "[Switch] Input source PC",
+    "remote": "SWITCH",
+    "key": "KEY_1"
+  },
+  "srcps4": {
+    "name": "[Switch] Input source PlayStation4",
+    "remote": "SWITCH",
+    "key": "KEY_4"
+  },
+  "srcchrome": {
+    "name": "[Switch] Input source ChromeCast",
+    "remote": "SWITCH",
+    "key": "KEY_5"
+  }
+}
